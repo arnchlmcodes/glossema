@@ -1,0 +1,60 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "nounsexc",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "Nounsdecl",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "qn",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "regverbsexc",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "decl",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "qn",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "pronounsexc",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "type",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "qn",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "adjexc",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "decl",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "qn",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ]
+}
